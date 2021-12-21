@@ -1,2 +1,4 @@
 # Data-Structure-Team-Project-CPU Scheduling
-Test
+之後介紹我們的版本
+# Array 
+# LinkList
