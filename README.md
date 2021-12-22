@@ -16,22 +16,23 @@ A simple C-based programming project for simulating CPU process scheduling.
 
 First Put the data in a job queue,then Move Process in the job queue to the ready queue according to time.Pick one Process (It may changed with different algorithms) to make it running to consume the burst time or quantum.Lastly, Record the waiting time if the process is not preempted; otherwise, move the process back to the end of the ready queue.
 
-The following example is the result of first_in_first_out :
+The following example is the result of first_come_first_serve :
 ```bash
-No.1.1 first_in_first_out(sort by P1~P10)
+No.1 First come first serve:
 
-P 1 waiting time :  0
-P 2 waiting time :  7
-P 3 waiting time : 15
-P 4 waiting time : 17
-P 5 waiting time : 30
-P 6 waiting time : 34
-P 7 waiting time : 43
-P 8 waiting time : 44
-P 9 waiting time : 58
-P10 waiting time : 63
+Waiting time for ...
+P 1= 0
+P 2= 5
+P 3=11
+P 4=12
+P 5=23
+P 6=25
+P 7=33
+P 8=31
+P 9=40
+P10=43
 
-Average Waiting Time : 31.10
+Average waiting time:22.3
 ```
 
 ## Usage
