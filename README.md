@@ -36,50 +36,16 @@ Average Waiting Time : 31.10
 
 ## Usage
 
-### Server
+### Waiting time
 
-On server side, execute the `server` with a specified port number `[port]`. 1024 < `[port]` < 65536.
+After compiling program,it shows each Process's waiting time corresponding to four different CPU_scheduling.
 
-```bash
-./server [port]
-```
+The following words are definition of scheduling criteria : 
 
-A directory `server_dir` will be created in the current directory. Files uploaded from clients are saved in `server_dir`, and clients can download files from it also.
-
-The server is then listening for asked connection and command requests from clients.
-
-### Client
-
-On client side, execute the `client` with a specified IP address and port number `[ip:port]`. The IP address and port number should correspond to that of server.
-
-```bash
-./client [ip:port]
-```
-
-A directory `client_dir` will be created in the current directory. Files downloaded from the servers are saved in `client_dir`, and clients can upload files to server from it.
-
-Each client first needs to type a username that is not registered in server currently, and after that it can send command requests to the server.
-
-## Command
-
-The server support the following commands for clients to request:
-
-### ls
-`ls` command shows all the files in `server_dir`:
-```bash
-ls
-```
-
-### get
-Clients use `get` to download files from server.
-```bash
-get filename
-```
-The downloaded files are saved in `client_dir`.
-
-### put
-Clients use `put` to upload files to server.
-```bash
-put filename
-```
-The uploaded files will be saved in `server_dir` on server side.
+- CPU utilization : A computer's usage of processing resources, or the amount of work handled by a CPU.
+- Throughput : Calculate how many Processes completed task in given time. 
+- Waiting time (WT) : TurnAround Time - Burst Time.
+- TurnAround Time (TAT) : Complete Time - Arrival Time.
+- Complete Time (CT) : The time of the Process's Burst Time has been finished by CPU.
+- Response Time (RT) : Amount of time it takes from when a request was submitted until the first response is produced.
+ 
