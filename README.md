@@ -50,6 +50,33 @@ The following words are definition of scheduling criteria :
 - Complete Time (CT) : The time of the Process's Burst Time has been finished by CPU.
 - Response Time (RT) : Amount of time it takes from when a request was submitted until the first response is produced.
  
+ ## Abstracts of data versions
+
+### Linked List
+
+- 1220 : Fixed RR schduling & modify all results are Processes's waiting time.
+
+### Array
+
+- 1208 : Fixed RR schduling to Queue type.
+- 1212 : Fixed RR timer.
+- 1220 : Modify all results are Processes's waiting time. 
+
+### Prototype
+
+- 1209 : All CPU_schduling algorithms function almost done.
+
+### Final System
+- 1223 : Linked List have two version. 
+
+- [x] Fixed_data version.
+- [x] Random_data version.
+
+- 1223 : Array have two version. 
+
+- [x] Fixed_data version.
+- [ ] Random_data version. (Incorrect with RR & SJF_non, we'll deal with it as soon as possible.)
+
  ## Coauthor
   
   408415068廖子靚
@@ -59,6 +86,3 @@ The following words are definition of scheduling criteria :
   408220045詹雨婷 
   
   408420083陳昀顥
- 
- ## Abstracts of data versions
-
