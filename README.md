@@ -8,7 +8,7 @@ A simple C-based programming project for simulating CPU process scheduling.
 
 2 . Algorithms to compare:
 1. First-come, first serve (or first-in, first out)
-2. Round robin (with different quantum size)
+2. Round robin 
 3. Shortest job first (non-preemptive)
 4. Shortest job first (preemptive)
 
