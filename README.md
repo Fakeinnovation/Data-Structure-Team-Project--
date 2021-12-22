@@ -4,15 +4,15 @@ A simple C-based programming project for simulating CPU process scheduling.
 
 ## Introduction
 
-1.The project has two versions : Array and Linked list.
+1 . The project has two versions : Array and Linked list.
 
-2.Algorithms to compare:
+2 . Algorithms to compare:
 1. First-come, first serve (or first-in, first out)
 2. Round robin (with different quantum size)
 3. Shortest job first (non-preemptive)
 4. Shortest job first (preemptive)
 
-3.The step of CPU_Scheduling
+3 . The step of CPU_Scheduling
 
 First Put the data in a job queue,then Move Process in the job queue to the ready queue according to time.Pick one Process (It may changed with different algorithms) to make it running to consume the burst time or quantum.Lastly, Record the waiting time if the process is not preempted; otherwise, move the process back to the end of the ready queue.
 
