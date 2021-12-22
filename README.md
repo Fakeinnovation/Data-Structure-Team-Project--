@@ -2,7 +2,7 @@
 
 A simple C-based programming project for simulating CPU process scheduling.
 
-## What's new?
+## Introduction
 
 1.The project has two versions : Array and Linked list.
 
@@ -12,7 +12,11 @@ A simple C-based programming project for simulating CPU process scheduling.
 3. Shortest job first (non-preemptive)
 4. Shortest job first (preemptive)
 
-The following example is result of first_in_first_out :
+3.The step of CPU_Scheduling
+
+First Put the data in a job queue,then Move Process in the job queue to the ready queue according to time.Pick one Process (It may changed with different algorithms) to make it running to consume the burst time or quantum.Lastly, Record the waiting time if the process is not preempted; otherwise, move the process back to the end of the ready queue.
+
+The following example is the result of first_in_first_out :
 ```bash
 No.1.1 first_in_first_out(sort by P1~P10)
 
@@ -29,8 +33,6 @@ P10 waiting time : 63
 
 Average Waiting Time : 31.10
 ```
-
-Use queues to implement the job queue and the ready queue, then accordind to each Process's arrival time & burst time operates Enqueue & Dequeue function. (It may changed with different algorithms)
 
 ## Usage
 
