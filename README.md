@@ -30,7 +30,7 @@ P10 waiting time : 63
 Average Waiting Time : 31.10
 ```
 
-Use queues to implement the job queue and the ready queue then operate.
+Use queues to implement the job queue and the ready queue, then accordind to each Process's arrival time & burst time operates Enqueue & Dequeue function. (It may changed with different algorithms)
 
 ## Usage
 
