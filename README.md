@@ -49,3 +49,13 @@ The following words are definition of scheduling criteria :
 - Complete Time (CT) : The time of the Process's Burst Time has been finished by CPU.
 - Response Time (RT) : Amount of time it takes from when a request was submitted until the first response is produced.
  
+ ## Coauthor
+  
+  408415068廖子靚
+  
+  408415060藍鴻毅 
+  
+  408220045詹雨婷 
+  
+  408420083陳昀顥
+ 
