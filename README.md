@@ -75,7 +75,7 @@ The following words are definition of scheduling criteria :
 - 1223 : Array have two version. 
 
 - [x] Fixed_data version.
-- [ ] Random_data version. (Incorrect with RR & SJF_non, we'll deal with it as soon as possible.)
+- [x] Random_data version. 
 
  ## Coauthor
   
